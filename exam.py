@@ -11,11 +11,8 @@ def the_second_longest_string_in_list(list):
 		print("Your list does NOT have enough item!!!")
 		pass
 	else:
-		temporary = []
-		for item in list:
-			temporary.append(item)
-
-		temp = sorted(temporary, key=len, reverse=True)
+		temporary = [item for item in list]
+		temp      = sorted(temporary, key=len, reverse=True)
 		return temp[1]
 
 """
