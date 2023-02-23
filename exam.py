@@ -119,5 +119,7 @@ if __name__ == '__main__':
 	keys(dict = athletics)
 	# ---------------------------------------------------------------------------
 
-	f_path = "D:\\PROJECTS\\vizsga\\examination.txt"
+	file_name = "examination.txt"
+	f_path = f"{os.path.dirname(__file__)}\\{file_name}"
+	print(f_path)
 	write_data(f_path)
