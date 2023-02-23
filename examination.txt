@@ -1,0 +1,52 @@
+1. Mi a különbség a list és tuple között?
+    - A tuple-ből nem lehet elemet törölni
+
+2. Mire használjuk a def __init__(self) metódust?
+    - Egy osztály instance változók létrehozására, példányosítást követően.
+
+3. Miért kell a self szó osztály definíció esetében?
+    - Azért, hogy az osztályon belül példányosított inst. változókat elérjük.
+
+4. Írjatok pár szót az *args, **kwargs használatáról! Mire jó, mikor célszerű használni?
+    - Változó számú paraméterek átadására szolgálnak.
+            *args --> return a Tuple() obj.
+    - Olyan függvényeknél használjuk, amelyek több adatot kell feldolgozniuk.
+
+5. Mi a package és mi a modul?
+    - A package egy olyan könyvtárszerkezet, amely egy fő file hoz tartozó modulokat tartalmaz.
+    -  A modul a package része, mely egy-egy funkcionalitásért felel.
+
+6. Fogalmazd meg, hogy a python dinamikus típusossága mit jelent?
+    - Egy változó a python-ban bármely tipust felvehet: str, bool, int, stb...
+
+7. Mire jó az f string használata? pl. my_str = f"valami"
+    - Az f str. esetében  a {} közé változókat lehet inplement módon elhelyezni.
+
+8. Mely utasítással léptetjük az iterációt ciklusok esetén?
+    - az "in" utasítás
+
+9. Írjatok pár gondolatot a comprehension műveletről? Mire jó? Mikor célszerű használni? Milyen fajtái vannak?
+    - list comprehension
+    - dict comprehension
+    - gen comprehension
+    - tuple comprehension
+
+    Akkor használjuk amikor a fent megnevezett obj. tipusokat szeretnék létrehozni dinamikusan.
+    Előnye a sebessége, hisz az append() utasítást "kihadja", így gyorsabb lesz a lefutása.
+
+10. Mire jó az öröklődés OOP esetén?
+    - Egy osztály
+11. Mit nevezünk relációnak adatbázisok esetén?
+    - A reláció az adatbázis egy táblázata, ely a DB-k alapvető szerkezeti elemei.
+
+12. Mely utasítással módosítunk adatot egy táblában?
+    - UPDATE
+
+13. Mire való a commit utasítás?
+    - Tranzakciók vérgehajtásának lezárására
+
+14. Mire szolgál a where utasítás?
+    - Egy táblában lévő adat filterezésekor a kritérium meghatározására pl: ID
+
+15. Mire szolgál a primary key kifejezés?
+    - Egy táblában egy hivatkozási kulcs létrehozására
